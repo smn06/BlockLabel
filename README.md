@@ -1,7 +1,7 @@
-BlockLabel
-==============================
+# BlockLabel - Transparent and Secure Blockchain-Based AI Data Labeling
 
-A short description of the project.
+## Overview:
+BlockLabel is an innovative solution that leverages blockchain technology to establish a transparent and secure system for data labeling. Data labeling is a critical step in training AI models, and BlockLabel aims to enhance the trustworthiness and reliability of labeled datasets by integrating blockchain principles.
 
 Project Organization
 ------------
@@ -54,4 +54,33 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+### Key Features:
+- **Decentralized Labeling:** Distributes labeling tasks across a network of nodes, ensuring a decentralized and tamper-resistant labeling process.
+  
+- **Immutable Audit Trail:** Utilizes blockchain's immutable ledger to create a transparent and traceable history of data labeling activities, promoting accountability and integrity.
+
+- **Smart Contracts:** Implements smart contracts to automate labeling agreements, ensuring fair compensation and efficient task management.
+
+- **Data Privacy:** Prioritizes data privacy with secure encryption and permissioned access, maintaining confidentiality while allowing transparency in the labeling process.
+
+## Getting Started:
+
+### Prerequisites:
+- Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation:
+1. Clone the repository: `git clone https://github.com/smn06/BlockLabel.git`
+2. Navigate to the project directory: `cd BlockLabel`
+3. Install dependencies: `npm install`
+
+### Usage:
+1. Start the blockchain network: `npm run blockchain`
+2. Deploy smart contracts: `npm run deploy-contracts`
+3. Run the labeling application: `npm start`
+
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
